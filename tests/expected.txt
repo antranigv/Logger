@@ -1,0 +1,9 @@
+[2025-06-15T03:27:27Z] [INFO] Logger initialized
+[2025-06-15T03:27:27Z] [INFO] Connected users: 42
+[2025-06-15T03:27:27Z] [WARN] [unit-test] Warning with prefix
+[2025-06-15T03:27:27Z] [WARN] [unit-test] Sessions: 5
+[2025-06-15T03:27:27Z] [ERROR] [unit-test] Something went wrong
+[2025-06-15T03:27:27Z] [ERROR] [unit-test] Error code: -7
+[2025-06-15T03:27:27Z] [DEBUG] [unit-test] This is a debug message
+[2025-06-15T03:27:27Z] [DEBUG] [unit-test] File descriptor: 3
+[2025-06-15T03:27:27Z] [INFO] Prefix cleared
