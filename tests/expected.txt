@@ -1,9 +1,9 @@
-[2025-06-15T03:27:27Z] [INFO] Logger initialized
-[2025-06-15T03:27:27Z] [INFO] Connected users: 42
-[2025-06-15T03:27:27Z] [WARN] [unit-test] Warning with prefix
-[2025-06-15T03:27:27Z] [WARN] [unit-test] Sessions: 5
-[2025-06-15T03:27:27Z] [ERROR] [unit-test] Something went wrong
-[2025-06-15T03:27:27Z] [ERROR] [unit-test] Error code: -7
-[2025-06-15T03:27:27Z] [DEBUG] [unit-test] This is a debug message
-[2025-06-15T03:27:27Z] [DEBUG] [unit-test] File descriptor: 3
-[2025-06-15T03:27:27Z] [INFO] Prefix cleared
+[2025-06-15T04:02:43Z] [INFO] Logger initialized
+[2025-06-15T04:02:43Z] [INFO] The answer to life, the universe, and everything: 42
+[2025-06-15T04:02:43Z] [WARN] [Web Server] Web Server is loading slowly
+[2025-06-15T04:02:43Z] [WARN] [Web Server] Current threads: 4
+[2025-06-15T04:02:43Z] [ERROR] [Web Server] Something went wrong...
+[2025-06-15T04:02:43Z] [ERROR] [Web Server] The function returned: -1
+[2025-06-15T04:02:43Z] [DEBUG] [Web Server] This is a debug message
+[2025-06-15T04:02:43Z] [DEBUG] [Web Server] File descriptor: 73
+[2025-06-15T04:02:43Z] [INFO] Prefix cleared

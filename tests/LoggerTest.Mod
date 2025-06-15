@@ -11,20 +11,20 @@ BEGIN
 
   (* Show default level (INFO) in action *)
   log.Info("Logger initialized");
-  log.InfoInt("Connected users: ", 42);
+  log.InfoInt("The answer to life, the universe, and everything: ", 42);
 
   (* Prefix usage *)
-  log.SetPrefix("unit-test");
-  log.Warn("Warning with prefix");
-  log.WarnInt("Sessions: ", 5);
+  log.SetPrefix("Web Server");
+  log.Warn("Web Server is loading slowly");
+  log.WarnInt("Current threads: ", 4);
 
-  log.Error("Something went wrong");
-  log.ErrorInt("Error code: ", -7);
+  log.Error("Something went wrong...");
+  log.ErrorInt("The function returned: ", -1);
 
   (* Switch to DEBUG level *)
   log.SetLevel(Logger.DEBUG);
   log.Debug("This is a debug message");
-  log.DebugInt("File descriptor: ", 3);
+  log.DebugInt("File descriptor: ", 73);
 
   (* Clear prefix *)
   log.ClearPrefix();
