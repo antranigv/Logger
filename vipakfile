@@ -1,0 +1,15 @@
+NAME      = Logger
+VERSION   = 0.1.0
+
+AUTHOR    = Antranig Vartanian <antranig@vartanian.am>
+LICENSE   = BSD-2-Clause
+
+DEPS      =
+
+RUN       =
+MAIN      =
+BUILD     = %projdir%/src/time.Mod ; %projdir%/src/Logger.Mod
+
+TEST_RUN  = ./LoggerTest > actual.txt ; awk -f %projdir%/tests/test.awk actual.txt %projdir%/tests/expected.txt
+TEST_MAIN = %projdir%/tests/LoggerTest.Mod
+TEST      =
